@@ -1,0 +1,78 @@
+body{
+    background: skyblue;
+    margin: 0;
+    padding:0;
+}
+.nav-bar{
+    width: auto;
+    height: 60px;
+    margin-top: -16px;
+    background: rgb(53, 117, 143);
+}
+li{
+    padding: 10px;
+    font-size: 25px;
+    list-style: none;
+    color: rgb(140, 140, 206);
+    cursor: pointer;
+    text-decoration: steelblue;
+
+   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+li:hover{
+    color: steelblue;
+
+}
+.line{
+    background: snow;
+    width: auto;
+    height: 2px;
+    margin-top: -4px;
+}
+a{
+    text-decoration: none;
+}
+
+.author{
+    font-size: 18px;
+    margin-top: 50%;
+    margin-left: 85%;
+}
+h2{
+    text-align: center;
+    text-decoration: none;
+}
+form{
+    margin: 20px;
+    margin-left: 37%;
+    padding: 50px;
+
+}
+input{
+    width: 220px;
+    height: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: medium;
+    background: rgb(30, 189, 204);
+    outline: none;
+}
+button{
+    width: 100px;
+    height: 38px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: green;
+    outline: none;
+}
+
+p{
+text-align: center;
+}
